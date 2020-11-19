@@ -5,7 +5,7 @@ var gdp = require("gdprofiles");
 const { read } = require("./db");
 var client = new discord.Client();
 client.commands = new discord.Collection();
-const _T = "NzU0NTc3NjU5NzY1MzI1ODU1.X12xNQ.MkXyjgG2Sgs7u70MoyHqjhzDqZY";
+const _T = "NzU0NTc3NjU5NzY1MzI1ODU1.X12xNQ.MkXyjgG2Sgs7u70MoyHqjhzDqZy1";
 fs.readdir("./commands/", (err, files) => {
   if(err) console.log(err);
   
